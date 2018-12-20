@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans');
+.navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    margin: 5px;
+}
+
+.nabar-description {
+    text-align: left !important;
+    font-style: oblique;
+    color: gray;
+}
+
+body {
+    background: rgba(255, 255, 141, 0.623);
+}
+
+#body-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    background-image: url(https://1.bp.blogspot.com/-Lms0Sd1K2F0/WgSM4R0ZaJI/AAAAAAAAA9A/Vz5vMgsuUtosr96JpGJC1cUm1E1g1KG7wCK4BGAYYCw/s0/sayagata-400px.png);
+    background-attachment: fixed;
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+#page-body {
+    font-family: "Open Sans", sans-serif
+}
+
+#flyers {
+    background-color: rgba(43, 233, 160, 0.322);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.panel {
+    border-radius: 10px;
+    transition: box-shadow 0.5s;
+    margin-top: 35px;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+}
+
+.panel-footer .btn:hover {
+    background-color: #E8EAF6 !important;
+    color: #1A237E;
+    border-color: #1A237E;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #01579B !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-body {
+    background-color: #fff !important;
+    padding: 20px;
+    text-align: left;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(147, 129, 224);
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+    width: 100%;
+}
+
+kbd {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.reqs {
+    margin-top: 10px;
+}
+
+.aFlyer {
+    margin-top: 15px;
+    border-radius: 10px !important;
+}
+
+#button-container {
+    height: 80vh;
+    background-color: rgba(43, 233, 160, 0.322);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.btn-upload {
+    margin: 100px;
+    background-color: #311B92;
+    color: #fff;
+}
+
+.btn-upload:hover {
+    background-color: #E8EAF6 !important;
+    color: #1A237E;
+    border-color: #1A237E;
+}
+
+.btn-capture {
+    margin: 100px;
+    background-color: #311B92;
+    color: #fff;
+}
+
+.btn-capture:hover {
+    background-color: #E8EAF6 !important;
+    color: #1A237E;
+    border-color: #1A237E;
+}
+
+.bg-4 {
+    background-color: rgb(248, 249, 250);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+code {
+    color: black !important;
+}
+
+ input[type="file"] {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.custom-file-upload {
+    
+} 

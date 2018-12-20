@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <title>Store your Flyers | FlyMaS</title>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+        <!--JS-->
+        <script type="text/javascript" src="script.js"></script>
+
+        <!-- Other stuff W3Schools told me to do-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- AddEvent script -->
+        <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+    </head>
+
+
+
+</head>
+
+<!--<body onload="load();">-->
+<body>
+    <div id="body-wrapper">
+        <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand">
+                <h1>FlyMaS</h1>
+                <div class="nabar-description">The Flyer Management System</div>
+            </a>
+
+            <form class="form-inline" action="add.html">
+                <button class="btn btn-outline-success my-2 my-sm-0 btn-lg" type="submit">Add New Flyer</button>
+            </form>
+        </nav>
+
+        <div class="container-fluid" id="page-body">
+
+
+            <!-- Listing group -->
+            <div class="container-fluid" id="flyers">
+
+                <!--A Flyer Row-->
+                <div class="container-fluid">
+                    <div class="row" id = "js-container">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <h1>Halloween Night in De Neve</h1>
+                                </div>
+                                <div class="panel-body">
+                                    <kbd id = "event">Event</kbd>
+                                    <div class="reqs">
+                                        <ul>
+                                            <li id="date">Date: 31 October 2018</li>
+                                            <li id="time">Time: 08:00 pm</li>
+                                            <li id="venue">Venue: De Neve Auditorium</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="panel-footer">
+                                        <button class="btn">View Original Flyer</button>
+                                        <div title="Add to Calendar" class="addeventatc btn btn-cal">
+                                            Add to Calendar
+                                            <span class="start">12/02/2018 08:00 AM</span>
+                                            <span class="end">12/02/2018 10:00 AM</span>
+                                            <span class="timezone">America/Los_Angeles</span>
+                                            <span class="title">Summary of the event</span>
+                                            <span class="description">Description of the event</span>
+                                            <span class="location">Location of the event</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <h1>Biomedical Research workshop</h1>
+                                </div>
+                                <div class="panel-body">
+                                    <kbd>Research</kbd>
+                                    <div class="reqs">
+                                        <ul>
+                                            <li id="date">Date: 15 November 2018</li>
+                                            <li id="time">Time: 05:30 pm</li>
+                                            <li id="venue">Venue: Boelter 5113</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="panel-footer">
+                                        <button class="btn">View Original Flyer</button>
+                                        <div title="Add to Calendar" class="addeventatc btn btn-cal">
+                                            Add to Calendar
+                                            <span class="start">11/15/2018 05:30 PM</span>
+                                            <span class="end">11/15/2018 06:30 PM</span>
+                                            <span class="timezone">America/Los_Angeles</span>
+                                            <span class="title">Biomedical Research Workshop</span>
+                                            <span class="description">It is a research workshop</span>
+                                            <span class="location">Boelter 5113</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <h1>LikeLion Web Development Club</h1>
+                                </div>
+                                <div class="panel-body">
+                                    <kbd>Club</kbd>
+                                    <div class="reqs">
+                                        <ul>
+                                            <li>Date: Every Mon, Wed</li>
+                                            <li>Time: 07:00 pm</li>
+                                            <li>Venue: MS 3117</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="panel-footer">
+                                        <button class="btn">View Original Flyer</button>
+                                        <div title="Add to Calendar" class="addeventatc btn btn-cal">
+                                            Add to Calendar
+                                            <span class="start">12/02/2018 08:00 AM</span>
+                                            <span class="end">12/02/2018 10:00 AM</span>
+                                            <span class="timezone">America/Los_Angeles</span>
+                                            <span class="title">Summary of the event</span>
+                                            <span class="description">Description of the event</span>
+                                            <span class="location">Location of the event</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <h1>ACM Hack on the Hill</h1>
+                                </div>
+                                <div class="panel-body">
+                                    <kbd>Event</kbd>
+                                    <div class="reqs">
+                                        <ul>
+                                            <li>Date: 17 November 2018</li>
+                                            <li>Time: 09:30 AM</li>
+                                            <li>Venue: De Neve Auditorium</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="panel-footer">
+                                        <button class="btn">View Original Flyer</button>
+
+                                        <div title="Add to Calendar" class="addeventatc btn btn-cal">
+                                            Add to Calendar
+                                            <span class="start">12/02/2018 08:00 AM</span>
+                                            <span class="end">12/02/2018 10:00 AM</span>
+                                            <span class="timezone">America/Los_Angeles</span>
+                                            <span class="title">Summary of the event</span>
+                                            <span class="description">Description of the event</span>
+                                            <span class="location">Location of the event</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="panel panel-default text-center">
+                                <div class="panel-heading">
+                                    <h1>Mind-Body  Research</h1>
+                                </div>
+                                <div class="panel-body">
+                                    <kbd>Research</kbd>
+                                    <div class="reqs">
+                                        <ul>
+                                            <li>Date: 20 December 2018</li>
+                                            <li>Time: 12:00 PM</li>
+                                            <li>Venue: India</li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="panel-footer">
+                                        <button class="btn">View Original Flyer</button>
+                                        <div title="Add to Calendar" class="addeventatc btn btn-cal">
+                                            Add to Calendar
+                                            <span class="start">12/02/2018 08:00 AM</span>
+                                            <span class="end">12/02/2018 10:00 AM</span>
+                                            <span class="timezone">America/Los_Angeles</span>
+                                            <span class="title">Summary of the event</span>
+                                            <span class="description">Description of the event</span>
+                                            <span class="location">Location of the event</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="container-fluid bg-4 text-center">
+            <p><code>&lt;&gt; by Alex, Frank and Utsav.</code></p>
+        </footer>
+</body>
+
+</html>
