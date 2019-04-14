@@ -18,5 +18,5 @@ The project is currently in progress! The plans for future integration can be ex
 
 ## Contributors:
 * [Alexander Ma](https://github.com/alexzma)
-* [Utsav Munendra](utsavm9.github.io)
+* [Utsav Munendra](http://utsavm9.github.io)
 * Frank Xing
