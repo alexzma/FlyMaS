@@ -31,3 +31,4 @@ And with the help of mentors.
 * Allow the app to capture images from the camera when on a phone
 * Store all the images not locally but on a centralized system for everyone to see
 * Host the website on our own domain
+Just checking if I still have the committing priviledges to this repository
